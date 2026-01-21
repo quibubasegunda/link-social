@@ -1,0 +1,97 @@
+@charset "UTF-8";
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+        :root {
+            --cor0: hsl(0, 0%, 20%);
+            --cor01: hsl(0, 0%, 12%);
+            --cor02: hsl(0, 0%, 8%);
+            --cor-destaque: hsl(75, 94%, 57%);
+            --cor-txt: hsl(0, 0%, 100%);
+        }
+        
+        * {
+            font-family: 'Inter';
+            margin: 0px;
+            padding: 0px;
+        }
+
+        * p {
+            font-size: 14px;
+        }
+
+        body {
+            background-color: var(--cor02);
+            color: var(--cor-txt);
+        }
+
+        .container {
+            background-color: var(--cor01);
+            border-radius: 15px;
+            height: 500px;
+            width: 300px;
+            margin: 80px auto 80px auto;
+            padding: 30px;
+        }
+
+        .top {
+            text-align: center;
+        }
+
+        .top img {
+            display: block;
+            border-radius: 50px;
+            height: 100px;
+            width: 100px;
+            margin: auto;
+        }
+
+        .about h1 {
+            font-weight: normal;
+            margin: 25px 0px 5px 0px;
+        }
+
+        .about p {
+            color: var(--cor-destaque);
+            margin-bottom: 25px;
+        }
+
+        .button-link {
+            margin-top: 20px;
+        }
+
+        .button-link a {
+            display: block;
+            text-decoration: none;
+        }
+
+        .button-link a button {
+            background-color: var(--cor0);
+            color: var(--cor-txt);
+            cursor: pointer;
+            font-size: 14px;
+            border: 0px;
+            border-radius: 10px;
+            padding: 8px;
+            width: 100%;
+            margin-bottom: 12px;
+            transition-duration: .3s;
+        }
+
+        .button-link a button:hover {
+            color: var(--cor01);
+            background-color: var(--cor-destaque);
+            font-weight: bolder;
+        }
+
+        .attribution { 
+            font-size: 11px; 
+            text-align: center; 
+         }
+
+        .attribution a {
+            color: hsl(75, 94%, 57%);
+            text-decoration: none;
+            font-weight: bold;
+         }
+           
+    
